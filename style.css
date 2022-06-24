@@ -1,0 +1,49 @@
+h3 {
+    color: deepskyblue;
+    margin: 30px;
+    border: solid;
+    padding: 5px;
+}
+.Header{
+    background-color: rgba(255, 20, 145, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.Grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    border:solid;
+    position: relative;    
+}
+.item h3 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover h3{
+    opacity: 1;
+}
+.item:hover img {
+    opacity: 0.33;
+}
+.Footer{
+    display:flex;
+    justify-content: flex-end;
+}
+body {
+    background-color:  #00000086;
+}
+a:link {
+    color: #fff;
+}
+a:visited {
+    color: #ff0000
+}
+.Header h3 {
+    margin-right: 30px;
+}
